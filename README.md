@@ -18,6 +18,10 @@
         - [SSMS](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
 7. Ejecutar el script de Data inicial archivo **initData.sql**
 8. Probar el F1 API en el puerto 3000.
+    - Get All Teams: GET => http://localhost:3000/api/teams/getallteams
+    - Get One Team: GET => http://localhost:3000/api/teams/getoneteam (Body String nameTeam)
+    - Get All Drivers: GET => http://localhost:3000/api/drivers/getalldrivers
+    - Get Driver by Team: GET => http://localhost:3000/api/drivers/getDriversByTeam (Body String nameTeam)
 
 ### Notas
 
