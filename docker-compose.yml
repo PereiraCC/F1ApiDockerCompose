@@ -3,7 +3,7 @@ services:
   
   app:
 
-    image: pereira00/formula1api:vettel
+    image: pereira00/formula1api:lewis
     depends_on:
       - db
     restart: always
